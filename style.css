@@ -1,0 +1,410 @@
+html{scroll-behavior: smooth;}
+
+body{background-color: rgb(45, 45, 53);
+    font-family:sans-serif;
+}
+
+
+header{display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+background-color:rgba(255, 255, 255, 0.185);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+header p{font-size: 22px;
+font-weight: 400;
+color: white;}
+
+
+
+header p:hover{color: rgb(0, 0, 0);}
+
+
+
+header img{width: 55px;
+padding: 10px;}
+
+.top{width:40px;
+height: 40px;
+font-size: 14px;
+background-color:rgb(65, 62, 62);
+right:10px;
+position: fixed;
+bottom:15px;
+border-radius: 10px;
+align-items: center;
+display: flex;
+justify-content: center;}
+
+.inicio{background-image: url(https://www.ative.pet/wp-content/uploads/2020/08/cachorro-ansioso.jpeg);
+background-position: center;
+border-radius:20px;
+font-size: 38px;
+padding: 80px;
+width:auto;
+margin-bottom: 20px;}
+ 
+
+.caixa{background-color:rgba(255, 255, 255, 0.185);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+border-radius: 10px;
+width: 200px;
+padding: 40px;}
+
+.caixa img{margin-left: 30px;}
+
+.caixa h1{font-size: 30px;
+  display: flex;
+justify-content: center;}
+
+input{outline:none;}
+
+.email{width: 190px;
+height: 25px;
+border:none;
+border-radius: 5px;}
+
+
+.senha{width: 190px;
+height: 25px;
+border:none;
+border-radius: 5px;}
+
+.btn{width:194px;
+height:25px;
+border:none;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;}
+
+.btn:hover{background-color: #D7DDFB;}
+
+.pets{background-color: rgb(245, 244, 244);
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.pets h3{display: flex;
+justify-content: center;
+padding: 20px;}
+
+.pets div{display: flex;
+justify-content: space-around;
+padding: 20px;
+flex-wrap: wrap;}
+
+
+.pets img{width: 290px;
+height: 190px;
+border-radius: 10px;
+margin: 10px;
+}
+
+.pets-02{background-color: rgb(245, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+margin-bottom: 20px;}
+
+.pets-02 h3{display: flex;
+    justify-content: center;
+    padding: 20px;}
+
+.pets-02 div{display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;}
+
+.pets-02 img{width: 290px;
+    height: 190px;
+    border-radius: 10px;
+    margin: 10px;}
+
+.adote{background-color: rgb(245, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.adote h1{display: flex;
+justify-content: center;}
+ 
+.adote span{display: flex;
+    flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+.pet-01{background-color: rgb(234, 234, 238);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    }
+    
+    .pet-01 img{width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    cursor:pointer;}
+    
+    .pet-01 h4{padding-left:10px;
+    font-size:18px;}
+    
+    .pet-01 p{padding:10px;}
+    
+    .pet-02{background-color: rgb(234, 234, 238);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;}
+    
+    .pet-02 img{width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    cursor:pointer;}
+    
+    .pet-02 h4{padding-left:10px;
+    font-size:18px;}
+    
+    .pet-02 p{padding:10px;}
+    
+    .pet-03{background-color: rgb(234, 234, 238);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;}
+    
+    .pet-03 img{width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    cursor:pointer;}
+    
+    .pet-03 h4{padding-left:10px;
+    font-size:18px;}
+    
+    .pet-03 p{padding:10px;}
+    
+    .pet-04{background-color: rgb(234, 234, 238);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;}
+    
+    .pet-04 img{width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    cursor:pointer;}
+    
+    .pet-04 h4{padding-left:10px;
+    font-size:18px;}
+    
+    .pet-04 p{padding:10px;}
+    
+    .pet-05{background-color: rgb(234, 234, 238);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;}
+    
+    .pet-05 img{width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    cursor:pointer;}
+
+    .btn-01{display: flex;
+ justify-content: center;
+ padding: 10px;
+ font-size: 14px;
+}
+.btn-01 button{
+font-size: 16px;
+border-radius: 10px;
+width: 200px;
+border: none;
+cursor: pointer;}
+
+.btn-01 button:hover{background-color: black;
+color: white;
+transition: 0.8s;}
+
+.comentario{
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.comentario h1{display: flex;
+justify-content: center;}
+
+.comentario .textos{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.text-01{background-color: rgb(233, 231, 231);
+    display: flex;
+    width: 340px;
+    padding: 10px;
+    text-align:justify;
+   border-radius: 10px;
+   margin: 10px;
+    }
+    
+    .text-01 img{width: 140px;}
+    
+    .text-02{background-color: rgb(233, 231, 231);
+    display: flex;
+    width: 340px;
+    padding:10px;
+    border-radius: 10px;
+    text-align:justify;
+    margin: 10px;}
+    
+    .text-02 img{width: 140px;}
+    
+    .text-03{background-color: rgb(233, 231, 231);
+    display: flex;
+    width: 340px;
+    padding: 10px;
+    text-align:justify;
+    border-radius: 10px;
+    margin: 10px;
+    }
+    
+    .text-03 img{width: 140px;}
+
+    .curiosidades{background-color: rgb(245, 244, 244);
+        padding: 20px;
+        border-radius: 10px;
+    margin-bottom:20px;}
+
+    .curiosidades h1{display: flex;
+    justify-content: center;}
+
+    .curiosidades-div{display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: row;}
+
+    .curiosidade-01{background-color: rgb(233, 231, 231);
+        width: 270px;
+        margin:20px auto;
+        border-radius: 10px;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;}
+        
+        .curiosidade-01 img{width: 270px;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;}
+        
+        .curiosidade-01 p{padding:10px;}
+        
+        .curiosidade-02{background-color: rgb(233, 231, 231);
+        width: 270px;
+        margin:20px auto;
+        border-radius: 10px;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;}
+        
+        .curiosidade-02 img{width: 270px;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;}
+        
+        .curiosidade-02 p{padding:10px;}
+        
+        .curiosidade-03{background-color: rgb(233, 231, 231);
+        width: 270px;
+        margin:20px auto;
+        border-radius: 10px; -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+        
+        .curiosidade-03 img{width: 270px;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;}
+        
+        .curiosidade-03 p{padding:10px;}
+
+        .curiosidade-01:hover, .curiosidade-01:focus, .curiosidade-01:active {
+  
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+          }
+
+        .curiosidade-02:hover, .curiosidade-02:focus, .curiosidade-02:active {
+  
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+          }
+        .curiosidade-03:hover, .curiosidade-03:focus, .curiosidade-03:active {
+  
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+          }
+        
+        a{margin-left: 40%;
+        text-decoration: none;
+        color:black;
+        font-weight: 600;}
+        
+        footer{background-color: rgb(245, 244, 244);
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-family: sans-serif;
+            color: rgba(75, 73, 77, 0.87);
+            }
+            
+            footer ul{list-style-type:none;
+            padding-right:25px;}
+            
+            .title{font-weight: 600;}
+            
+            footer li:hover{color:rgb(88, 88, 226);}
+            
+            .title:hover{color:rgba(75, 73, 77, 0.87);}
+            
+            .linha{cursor:pointer;}
+
+            ::-webkit-scrollbar{width: 15px;}
+
+::-webkit-scrollbar-track{background-color: rgba(37, 37, 37, 0.89);
+border-radius: 5px;}
+
+::-webkit-scrollbar-thumb{background-color: rgba(105, 104, 104, 0.685);
+border-radius: 5px;}
+
+.dialog-email{margin:10px}
+.dialog-senha{margin:10px}
+.dialog-confirm{margin:10px}
+.registro{margin:10px}
+
+
+            @media (max-width: 450px){
+                header img{display: none;}
+
+                .caixa{padding: 10px;}
+
+                .inicio{background-image:url(https://i.ibb.co/FJdxt0x/undraw-Dog-walking-re-l61p.png);
+                background-repeat:no-repeat;}
+
+            }
+            
+    
